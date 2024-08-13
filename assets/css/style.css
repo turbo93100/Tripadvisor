@@ -59,3 +59,47 @@ nav button {
   background-color: black;
   border-radius: 20px;
 }
+
+/*<-- Main -->*/
+
+main section {
+  padding-top: 30px;
+}
+
+h1 {
+  font-family: TS-Med;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+main section p {
+  font-size: 15px;
+  color: #333333;
+}
+
+main nav {
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+main nav div {
+  flex: 1;
+  height: 70px;
+  padding: 15px 15px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+main nav p {
+  font-family: TS-Med;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+main img {
+  object-fit: scale-down;
+}
